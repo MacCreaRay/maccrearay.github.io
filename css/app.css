@@ -58,8 +58,8 @@ section {
   text-align: center;
 }
   .thumbnail {
-    width: 20%;
-    border: 3px solid #777;
+    width: 30%;
+    border: 3px solid #999;
     border-radius: 16px;
     box-shadow: 2x 3px 5px #222;
   }
