@@ -6,51 +6,64 @@
   margin: 0;
 }
 body {
-  padding: 50px; /* top, right, bottom, left */
-  padding: 25px 50px; /* top & bottom, left & right */
   background: #444;
-  color: #fff;
+  padding: 25px 50px;
   font-size: 1.6em;
   font-weight: 500;
 }
 header {
-  height: 500px;
   width: 100%;
-  border: 3px solid #000;
-  border-top-left-radius: 16px;
+  height: 500px;
+  border-top-left-radius: 16px; /* use 4 pixel increments */
   border-top-right-radius: 16px;
+  border: 3px solid #fff;
   background: url('../assets/images/headerBkg.png');
   background-size: cover;
-  background-position-y: -250px;
-  /* HEX values #000(black), #fff(white), #f00(blue), #0f0(green), #00f(blue) */
+  background-position: center;
+  font-family: 'Tiny5', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 7px #333;
 }
+  header > p {
+    color: #0f0;
+    margin-top: -25px;
+    background: rgba(255, 255, 255, .33);
+  }
 section {
   width: 100%;
   min-height: 300px;
   padding: 100px 50px;
   border: 3px solid #fff;
 }
-
-#about {
-  width: 100%;
-  padding: 100px 50px;
-  background: #222;
-  border: 3px solid #000;
-}
-
-.fancyHeading {
-  font-family: 'Tiny5', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-bottom: 20px;
-  text-decoration: underline;
-}
-#careerGoals {
-  width: 100%;
-  padding: 100px 50px;
-  background: #aaa;
-  border: 3px solid #000;
+#aboutSection {
+  background: #fff;
   color: #333;
+  font-size: 1.2em;
+}
+  .fancyHeading {
+    font-family: 'Tiny5', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+/*
+  #000 - black
+  #f00 - red
+  #0f0 - green
+  #00b - blue
+  #fff - white
+*/
+#careerGoals {
+  background: #222;
+  color: #fff;
+  font-size: 1.2em;
+  padding-left: 100px;
 }
 #workSamples {
   background: #fff;
