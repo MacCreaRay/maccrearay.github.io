@@ -8,13 +8,15 @@
 body {
   padding: 50px; /* top, right, bottom, left */
   padding: 25px 50px; /* top & bottom, left & right */
-  background: #444;
+  background: #1897b6;
   color: #fff;
   font-size: 1.6em;
   font-weight: 500;
 }
 header {
   text-align: center;
+  color: #0e759b;
+  text-decoration: #150e9b;
   padding: 275px;
   height: 500px;
   width: 100%;
@@ -35,7 +37,7 @@ section {
 #about {
   width: 100%;
   padding: 100px 50px;
-  background: #222;
+  background: #1f048d;
   border: 3px solid #000;
 }
 .fancyHeading {
@@ -48,9 +50,9 @@ section {
 #careerGoals {
   width: 100%;
   padding: 50px 50px;
-  background: #aaa;
+  background: #fff;
   border: 3px solid #000;
-  color: #333;
+  color: #322fe8;
 }
 #workSamples {
   background: #fff;
@@ -62,6 +64,7 @@ section {
     border: 3px solid #999;
     border-radius: 16px;
     box-shadow: 2x 3px 5px #222;
+    margin: 15px;
   }
   .socialMedia {
     width: 10%;
@@ -70,7 +73,7 @@ section {
     box-shadow: 2x 3px 5px #222;
   }
 #contact {
-  background: #222;
+  background: #d70606;
   color: #fff;
   text-align: center;
   border-bottom-left-radius: 16px;
